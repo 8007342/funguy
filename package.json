@@ -1,0 +1,12 @@
+{
+  "name": "funguy",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "flutter build web --release --no-web-resources-cdn && node scripts/build-offline.mjs",
+    "dev": "flutter run -d web-server --web-hostname 0.0.0.0 --web-port 8080",
+    "deploy": "wrangler deploy",
+    "check": "flutter analyze && flutter test"
+  },
+  "devDependencies": { "wrangler": "^4.0.0" }
+}

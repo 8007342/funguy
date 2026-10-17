@@ -1,0 +1,9 @@
+schema: spec-driven
+context: |
+  FunGuy is a mobile mushroom field companion for San Diego explorers and rangers.
+  Flutter targets web, Android and iOS; web ships through Cloudflare Workers Static Assets.
+  SDMYCO iNaturalist data supplies the planned regional reference collection.
+  Offline capture and inference must work without external services once prepared.
+  DNA evidence, community quality grade and visual model suggestions are separate claims.
+  “Fungi!” celebrates mushroom detection, never species certainty or edibility.
+  Character use follows assets/brand/character-canon.md.
